@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title> Feedback form </title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="description" content="Форма обратной связи">
+    <meta name="keywords" content="feedback">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="feedback">
+                <div class="feedback__title">Форма обратной связи</div>
+                <form class="feedback__form" name="form">
+                    <div class="feedback__row">
+                        <div class="feedback__inputItem">
+                            <label class="feedback__label" for="name">ФИО</label>
+                            <input class="feedback__input" name="name" type="text" autocomplete="off"
+                                placeholder="Епифан">
+                        </div>
+                        <div class="feedback__inputItem">
+                            <label class="feedback__label" for="phone">Телефон</label>
+                            <input class="feedback__input" name="phone" type="text" placeholder="+7 (423) 123-45-67"
+                                autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="feedback__row">
+                        <div class="feedback__inputItem">
+                            <label class="feedback__label" for="email">E-mail</label>
+                            <input class="feedback__input" name="email" type="text" autocomplete="off"
+                                placeholder="mail@example.com">
+                        </div>
+                    </div>
+                    <div class="feedback__row">
+                        <div class="feedback__inputItem">
+                            <label class="feedback__label" for="message">Сообщение</label>
+                            <textarea class="feedback__input feedback__textarea" name="message"
+                                placeholder="Приветствую"></textarea>
+                        </div>
+                    </div>
+                    <div class="feedback__info">
+                        Отправляя форму, Вы соглашаетесь на <a href="https://elon26.github.io/my-shop/policy/"
+                            target="blank">обработку
+                            персональных данных</a>
+                    </div>
+                    <div class="feedback__footer">
+                        <button class="feedback__button" type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
